@@ -1,5 +1,5 @@
 package co.edu.escuelaing.sparkdockerdemolive;
-
+import static spark.Spark.*;
 public class SparkWebServer {
 
     public static void main(String... args){
