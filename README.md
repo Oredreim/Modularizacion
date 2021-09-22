@@ -50,5 +50,3 @@ a local folder of plain text Markdown files.
 **©** Cristian Camilo Piñeros Arevalo, Estudiante de Ingeniería de Sistemas de la [Escuela Colombiana de Ingeniería Julio Garavito](https://www.escuelaing.edu.co/es/).
 
 Licencia bajo la [GNU General Public License](https://github.com/Oredreim/Modularizacion/blob/main/LICENSE).
-
-     [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/Skullzo/AREP-Lab5)
