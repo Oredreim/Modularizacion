@@ -1,5 +1,5 @@
 var apiclient = (function () {
-    var url=window.location.href+'results';
+    var url=window.location.href+'/ConnectLogs';
     function addMessage(){
         var mensaje=document.getElementById("Message").value;
         console.log(mensaje)
@@ -31,3 +31,6 @@ var apiclient = (function () {
         getMessages:getMessages
     };
 })();
+function InformacionGeneral(){
+   window.alert("Escriba el mensaje que desea ingresar, después oprima el boton \"Ingresar\" para guardarlo e n la base de datos, luego en la parte inferior observara los 10 ultimos mensajes guardados ");
+}

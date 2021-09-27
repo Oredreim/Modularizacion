@@ -1,73 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
-    <meta charset="UTF-8">
-    <title>Laboratorio Docker y AWS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Services</title>
 </head>
-<body onload="apiclient.getMessages()">
-<body>
-	<div style="padding:30px; width:96.9%; background:#008000; color:white; font-size:400%; position:absolute ; top:0px ; left:0px">
-	Laboratorio Docker y AWS
-	</div>
-	<div style="padding:30px; width:96.9%; background:#005A80; color:white; font-size:150%; position:absolute ; top:120px ; left:0px">
-	Escriba el mensaje que desea ingresar en el espacio provisto.
-	</div>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-	<br><br>
-</body>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<input type="text" name="Message" id="Message" style="width:500px ; font-size:150% ; position:absolute ; top:208px ; text-align:center; left:0px">
-<br><br>
-<button type="button" onclick="apiclient.addMessage()" style="width:508px ; font-size:150% ; position:absolute ; top:243px ; text-align:center; left:0px">Ingresar</button>
-</form>
-<div style="width:96.9%; color:white; font-size:150%; position:absolute ; top:300px ; left:0px">
-Mensajes ingresados
-</div>
-<div class="a" style="position:absolute ; color:white; top:350px ; left:0px ; font-size:150%">
-    <table class="table table-bordered" id="Table">
-        <thead class="thead-dark">
-        <tr>
-            <th scope="col">Número del mensaje</th>
-            <th scope="col">Mensaje</th>
-            <th scope="col">Fecha del mensaje</th>
-        </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
-</div>
-<body style = "background: url(https://images-na.ssl-images-amazon.com/images/I/41G0FZKDoLL._AC_SY355_.jpg) no-repeat ; background-size: 100% 111%;">
-</body>
-
-<script type="text/javascript" src="js/apiclient.js" ></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-</body>
+<center>
+    <body background="https://raw.githubusercontent.com/RichardUG/RoundRobinyLogsService-DockeryAWS/master/img/random_grey_variations.png?token=ANBYCL3VT4CYQSVOYAI5E2TBJKQGA" >
+        <table style="width:100%">
+            <tbody>
+                <tr>
+                    <td>
+                        <center>
+                            <br><br>
+                            <h1><FONT COLOR="black">Mensajes</FONT></h1>
+                            <br><br>
+                            <h5><FONT COLOR="black">Mensaje: <input type="text" name="Message" id="Message"></FONT></h5>
+                            <br><br>
+                            <button class="btn btn-primary" onclick="apiclient.addMessage()" >Registrar</button>
+                            <br><br>
+                            <button class="btn btn-toggle" onclick="InformacionGeneral()"><img src="https://raw.githubusercontent.com/RichardUG/RoundRobinyLogsService-DockeryAWS/master/img/interrogacion.jpg?token=ANBYCL376XWHQD2VTZSGDCDBJKQA2" width="20" height="20" ></button>
+                            <br><br>
+                            <br><br>
+                            <br><br>
+                            <br><br>
+                        </center>
+                    </td>
+                    <td>
+                        <center>
+                            <div class="a" >
+                                <table class="table table-sm table-dark table-hover" id="Table" style="width:90%">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Número del mensaje</th>
+                                        <th scope="col">Mensaje</th>
+                                        <th scope="col">Fecha del mensaje</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="index.js" ></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</center>
 </html>
