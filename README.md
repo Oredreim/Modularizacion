@@ -32,6 +32,25 @@ Para compilar el proyecto utilizando la herramienta Maven, nos dirigimos al dire
 mvn package
 ```
 
+## Pruebas
+Para realizar las pruebas correspondientes del proyecto utilizando la herramienta Maven, nos dirigimos al directorio donde se encuentra alojado el proyecto, y dentro de este ejecutamos en un Shell o Símbolo del Sistema el siguiente comando:
+
+```
+mvn test
+```
+
+Pruebas compiladas correctamente para el código fuente **RoundRobin**.
+![img](https://github.com/Oredreim/Modularizacion//blob/main/img/testRoundRobin.PNG)
+
+
+### Localhost
+
+Para probar ahora el correcto funcionamiento del Docker de manera local o localhost del programa **RoundRobin**, primero ejecutamos los siguientes comandos en orden.
+```
+docker build --tag Modularizacion/roundrobin .
+docker images
+docker run -d -p 8000:6000 --name balanceadordecarga Modularizacion/roundrobin
+```
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
 * [GIT](https://git-scm.com/). Sistema de control de versiones que almacena cambios sobre un archivo o un conjunto de archivos, permite recuperar versiones previas de esos archivos y permite otras cosas como el manejo de ramas (branches).
