@@ -47,10 +47,20 @@ Pruebas compiladas correctamente para el código fuente **RoundRobin**.
 ### Localhost
 
 Para probar ahora el correcto funcionamiento del Docker de manera local o localhost del programa **RoundRobin**, primero ejecutamos los siguientes comandos en orden.
+
 ```
 docker-compose up -d
+docker images
+docker ps
 ```
 ![](/img/1.PNG)
+![](/img/2.PNG)
+
+Ahora para acceder al proyecto ejecutamos el siguiente comando:
+```
+http://<IP asignada>:35000
+```
+
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
 * [GIT](https://git-scm.com/). Sistema de control de versiones que almacena cambios sobre un archivo o un conjunto de archivos, permite recuperar versiones previas de esos archivos y permite otras cosas como el manejo de ramas (branches).
