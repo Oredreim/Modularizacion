@@ -40,7 +40,7 @@ mvn test
 ```
 
 Pruebas compiladas correctamente para el código fuente **RoundRobin**.
-![](/img/testRoundRobin.png)
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/testRoundRobin.png?raw=true)
 
 
 
