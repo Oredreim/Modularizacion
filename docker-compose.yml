@@ -17,24 +17,47 @@ services:
             - 27017:27017
         command: mongod
 
-    loadbalancer:
+    roundrobin:
         build:
             context: ./RoundRobin
             dockerfile: Dockerfile
         depends_on:
-            - web
-        container_name: loadbalancer
+            - logservice1
+            - logservice2
+            - logservice3 
+        container_name: roundrobin 
         ports:
-            - "8000:6000"
+            - "35000:6000"
 
-    web:
+    logservice1:
+        build:
+            context: ./LogService
+            dockerfile: Dockerfile
+        depends_on:
+            - db 
+        container_name: logservice1 
+        ports:
+            - "35001:6000"
+
+    logservice2:
         build:
             context: ./LogService
             dockerfile: Dockerfile
         depends_on:
             - db
+        container_name: logservice2
         ports:
-            - "8001-8003:6000"
+            - "35002:6000"
+
+    logservice3: 
+        build:
+            context: ./LogService
+            dockerfile: Dockerfile
+        depends_on:
+            - db
+        container_name: logservice3
+        ports:
+            - "35003:6000"
 
 volumes:
     mongodb:
