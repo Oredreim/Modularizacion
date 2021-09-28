@@ -40,6 +40,7 @@ mvn test
 ```
 
 Pruebas compiladas correctamente para el código fuente **RoundRobin**.
+
 ![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/testRoundRobin.png?raw=true)
 
 
@@ -53,17 +54,21 @@ docker-compose up -d
 docker images
 docker ps
 ```
-![](/img/3.PNG)
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/3.png?raw=true)
+
 Ahora para acceder al proyecto ejecutamos el siguiente comando:
 ```
 http://<IP asignada>:35000
 ```
 
-![](/img/4.PNG)
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/4.png?raw=true)
 
 ### Despliegue DockerHub
 Ingresamos a la cuenta y creamos un nuevo repositorio
-![](/img/5.PNG)
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/5.png?raw=true)
+
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
 * [GIT](https://git-scm.com/). Sistema de control de versiones que almacena cambios sobre un archivo o un conjunto de archivos, permite recuperar versiones previas de esos archivos y permite otras cosas como el manejo de ramas (branches).
