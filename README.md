@@ -53,14 +53,16 @@ docker-compose up -d
 docker images
 docker ps
 ```
-![](/img/1.PNG)
-![](/img/2.PNG)
-
+![](/img/3.PNG)
 Ahora para acceder al proyecto ejecutamos el siguiente comando:
 ```
 http://<IP asignada>:35000
 ```
+![](/img/4.PNG)
 
+### Despliegue DockerHub
+Ingresamos a la cuenta y creamos un nuevo repositorio
+![](/img/5.PNG)
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
 * [GIT](https://git-scm.com/). Sistema de control de versiones que almacena cambios sobre un archivo o un conjunto de archivos, permite recuperar versiones previas de esos archivos y permite otras cosas como el manejo de ramas (branches).
