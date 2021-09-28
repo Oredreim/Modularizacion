@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -89,6 +89,7 @@
   "active": "039ebaf6d52f5b09",
   "lastOpenFiles": [
     "README.md",
+    "img/3.png",
     "Pasted image 20210927181958.png"
   ]
 }

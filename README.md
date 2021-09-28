@@ -40,7 +40,7 @@ mvn test
 ```
 
 Pruebas compiladas correctamente para el código fuente **RoundRobin**.
-![](/img/testRoundRobin.PNG)
+![](/img/testRoundRobin.png)
 
 
 
@@ -58,6 +58,7 @@ Ahora para acceder al proyecto ejecutamos el siguiente comando:
 ```
 http://<IP asignada>:35000
 ```
+
 ![](/img/4.PNG)
 
 ### Despliegue DockerHub
