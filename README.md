@@ -69,6 +69,19 @@ Ingresamos a la cuenta y creamos un nuevo repositorio
 
 ![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/5.png?raw=true)
 
+Creamos las imagenes para el Dockerhub
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/6.png?raw=true)
+
+Realizamos el push en el repositorio de docker
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/7.png?raw=true)
+
+Pero por alguna razon nunca me logre conectar con docker desde consola
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/8.png?raw=true)
+
+
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
 * [GIT](https://git-scm.com/). Sistema de control de versiones que almacena cambios sobre un archivo o un conjunto de archivos, permite recuperar versiones previas de esos archivos y permite otras cosas como el manejo de ramas (branches).
