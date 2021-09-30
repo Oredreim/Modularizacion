@@ -65,6 +65,7 @@ http://<IP asignada>:35000
 ![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/4.png?raw=true)
 
 ### Despliegue DockerHub
+
 Ingresamos a la cuenta y creamos un nuevo repositorio
 
 ![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/5.png?raw=true)
@@ -81,6 +82,38 @@ Pero por alguna razon nunca me logre conectar con docker desde consola
 
 ![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/8.png?raw=true)
 
+### AWS
+Creacion maquina virtual.
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/9.png?raw=true)
+
+Desplegamos una LINUX 2AMI (HVM)
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/10.png?raw=true)
+
+Continuamos y seleccionamos la opcion gratuita
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/11.png?raw=true)
+
+Y procedemos a crear y descargar las llaves RSA
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/12.png?raw=true)
+
+Movemos nuestra llave a una carpeta para poder manipularla mejor
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/13.png?raw=true)
+
+Le damos permiso de ejecucion y mandamos la conexion por SSH
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/14.png?raw=true)
+
+Actualizamos la maquina.
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/15.png?raw=true)
+
+Instalamos Docker y volvemos a ingresar para ahora si desplegarlo
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/16.png?raw=true)
 
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
