@@ -115,6 +115,20 @@ Instalamos Docker y volvemos a ingresar para ahora si desplegarlo
 
 ![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/16.png?raw=true)
 
+Ahora pasamos a confirgurar los puertos, para esto abriremos nuevamente en el browser la consola, nos dirijiremos a `instancias`  y luego a `segurida` entonces encontraremos la seccion de `inbound rules`.
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/16.png?raw=true)
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/17.png?raw=true)
+
+Agregaremos las reglas y asignaremos puertos por regla.
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/18.png?raw=true)
+
+![alt text](https://github.com/Oredreim/Modularizacion/blob/main/img/19.png?raw=true)
+
+Guardamos y realizamos los despliegues de la misma manera que hicimos de manera local, pero ahora en la maquina de AWS.
+
 ## Construido con
 * [Maven](https://maven.apache.org/). Herramienta que se encarga de estandarizar la estructura física de los proyectos de software, maneja dependencias (librerías) automáticamente desde repositorios y administra el flujo de vida de construcción de un software.
 * [GIT](https://git-scm.com/). Sistema de control de versiones que almacena cambios sobre un archivo o un conjunto de archivos, permite recuperar versiones previas de esos archivos y permite otras cosas como el manejo de ramas (branches).
